@@ -1,12 +1,17 @@
 .nav{
     grid-area: nav;
     background: rgb(109, 197, 113);
+    padding: 10%;
 }
 
 .item{
+    padding-bottom: 2%;
+}
+
+.item a{
     color: white;
 }
 
-.item.active{
-    color: red;
+.item a:hover{
+    color: rgb(218, 101, 101);
 }

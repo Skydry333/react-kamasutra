@@ -21,10 +21,18 @@ function App() {
             <Routes>
               <Route path="/profile" element={<Profile />}></Route>
               <Route path="/dialogs" element={<Dialogs />}></Route>
+              <Route path="/dialogs/1" element={<Dialogs />}></Route>
+              <Route path="/dialogs/2" element={<Dialogs />}></Route>
+              <Route path="/dialogs/3" element={<Dialogs />}></Route>
+              <Route path="/dialogs/4" element={<Dialogs />}></Route>
+              <Route path="/dialogs/5" element={<Dialogs />}></Route>
+            
+
+
               <Route path="/news" element={<News />}></Route>
               <Route path="/music" element={<Music />}></Route>
               <Route path="/settings" element={<Settings />}></Route>
-              <Route path="*" element={<Profile />}></Route>
+              {/* <Route path="*" element={<Profile />}></Route> */}
             </Routes>
           </div>
         </div>
